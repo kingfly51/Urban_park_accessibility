@@ -617,7 +617,7 @@ class UrbanParkAccessibilityAnalyzer:
 # 使用示例
 def main():
     # 替换为您的百度地图AK
-    BAIDU_AK = "vhy5cUzfFIEw5I7rUrGMYe7TYCvAwgKH"
+    BAIDU_AK = ""
     
     # 初始化分析器
     analyzer = UrbanParkAccessibilityAnalyzer(BAIDU_AK)
@@ -643,4 +643,5 @@ def main():
         print(f"进度已保存，下次运行会自动从断点继续")
 
 if __name__ == "__main__":
+
     main()
